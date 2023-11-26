@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Locais</title>
+    <title><?php echo $bloco->nome_bloco ?></title>
     <link rel="stylesheet" href="/dist/main.css">
 </head>
 <body class="bg-slate-100">
@@ -25,9 +25,9 @@
 
         <!-- div com as informações da sala ou local(banheiro, biblioteca ...) -->
         <div class="text-center pt-10 font-semibold">
-            <h3>Nome: <?php echo $bloco->nome_bloco?></h3>
-            <h3>Andares: <?php echo $bloco->andares?></h3>
-            <h3>Ano construção: <?php echo $bloco->ano_construcao?></h3>
+            <h3>Nome: <?php echo $bloco->nome_bloco ?></h3>
+            <h3>Andares: <?php echo $bloco->andares ?></h3>
+            <h3>Ano construção: <?php echo $bloco->ano_construcao ?></h3>
         </div>
 
         <!-- titulo e imagem do local -->
