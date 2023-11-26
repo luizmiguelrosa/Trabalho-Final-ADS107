@@ -11,7 +11,7 @@
 
     <!-- header - cabeçalho com a imagem, pode definir a largura do header pra pegar 100% da tela e colocar a imagem no centro, usando flexbox ou text-center -->
     <header> 
-        <img class="mt-5 mb-8 w-96 h-auto mx-auto"  src="<?php echo $sala->imagem ?>" alt="MAPA DA UNIVIÇOSA">
+        <img class="mt-5 mb-8 w-96 h-auto mx-auto"  src="..<?php echo $sala->imagem ?>" alt="MAPA DA UNIVIÇOSA">
     </header>
 
     <!-- main - conteúdo principal da página -->
@@ -34,7 +34,7 @@
         <div class="pt-6">
             <h2 class="text-center font-bold"><?php echo strtoupper($evento->nome_evento) ?></h2>
             <p class="pt-4 w-80 mx-auto" style="text-align: justify;"><?php echo $evento->descricao_evento ?></p>
-            <img class="pt-4 w-80 h-auto mx-auto" src="<?php echo $evento->foto ?>" alt="<?php echo $evento->nome_evento ?>">
+            <img class="pt-4 w-80 h-auto mx-auto" src="..<?php echo $evento->foto ?>" alt="<?php echo $evento->nome_evento ?>">
 
         </div>
     </main>

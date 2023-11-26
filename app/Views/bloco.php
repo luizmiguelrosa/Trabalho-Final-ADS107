@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $bloco->nome_bloco ?></title>
-    <link rel="stylesheet" href="/dist/main.css">
+    <link rel="stylesheet" href="../dist/main.css">
 </head>
 <body class="bg-slate-100">
 
     <!-- header - cabeçalho com a imagem, pode definir a largura do header pra pegar 100% da tela e colocar a imagem no centro, usando flexbox ou text-center -->
     <header> 
         <img class="mt-5 mb-8
-         w-96 h-auto mx-auto"  src="<?php echo $bloco->imagem?>" alt="MAPA DA UNIVIÇOSA">
+         w-96 h-auto mx-auto"  src="..<?php echo $bloco->imagem?>" alt="MAPA DA UNIVIÇOSA">
     </header>
 
     <!-- main - conteúdo principal da página -->

@@ -11,7 +11,7 @@
 
     <!-- header - cabeçalho com a imagem, pode definir a largura do header pra pegar 100% da tela e colocar a imagem no centro, usando flexbox ou text-center -->
     <header> 
-        <img class="mt-5 mb-8 w-96 h-auto mx-auto"  src="<?php echo $local->imagem ?>" alt="MAPA DA UNIVIÇOSA">
+        <img class="mt-5 mb-8 w-96 h-auto mx-auto"  src="..<?php echo $local->imagem ?>" alt="MAPA DA UNIVIÇOSA">
     </header>
 
     <!-- main - conteúdo principal da página -->
@@ -32,7 +32,7 @@
         <!-- titulo e imagem do local -->
         <div class="text-center pt-6 font-bold">
             <h2><?php echo strtoupper($local->tipo_local) ?></h2>
-            <img class="pt-4 w-80 h-auto mx-auto" src="<?php echo $local->foto ?>" alt="<?php echo $local->tipo_local ?>">
+            <img class="pt-4 w-80 h-auto mx-auto" src="..<?php echo $local->foto ?>" alt="<?php echo $local->tipo_local ?>">
 
         </div>
     </main>
